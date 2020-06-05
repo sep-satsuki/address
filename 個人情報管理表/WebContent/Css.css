@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+form {
+	text-align: center;
+}
+
+input.btn{
+	background-color:#808080;
+	width:150px;
+	display:inline-block;
+
+}
+
+input.btn1 {
+	margin-right:50px;
+}
+
+input.btn2 {
+	margin-left:10px;
+}
+
+.sample2{
+	width:150px;
+}
+.box {
+	width:150px;
+}
+	.sampleTable {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
