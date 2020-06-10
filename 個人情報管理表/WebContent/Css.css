@@ -11,21 +11,24 @@ input.btn{
 
 }
 
-input.btn1 {
-	margin-right:50px;
-}
-
-input.btn2 {
-	margin-left:10px;
-}
 
 .sample2{
 	width:150px;
 }
 .box {
-	width:150px;
+	width:100px;
 }
 	.sampleTable {
     border-collapse: collapse;
     table-layout: fixed;
+}
+.add{
+	width:200px;
+	
+}
+.category {
+	color:#ba55d3;
+}
+.pull {
+	color:#ba55d3;
 }

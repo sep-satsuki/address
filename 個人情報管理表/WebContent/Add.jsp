@@ -1,6 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+<%
+	String name="";
+	String address="";
+	String tel="";
+	String categoryid="";
+
+
+
+
+%>
 <html>
 <head>
 <link rel="stylesheet" href="Css.css" type="text/css">
@@ -12,28 +22,31 @@
 <p>住所録管理システム：住所録登録</p>
 <form>
 
-<table border="1" class="sampleTable">
+<table  class="sampleTable">
 	<tr>
-		<td width="200">名前* : </td>
-		<td class="texter box"><input type="text" name="name" size="150" ></td>
+		<td width="100" align="right">名前* : </td>
+		<td class="texter box" align="left"><input type="text" name="name" width="100" ></td>
+		<td></td>
 
 	</tr>
 
 	<tr>
-		<td width="200">住所* : </td>
-		<td ><input type="text" name="address" class="add box" size="300" ></td>
+		<td width="100" align="right">住所* : </td>
+		<td class="add box" colspan="2" align="left"><input type="text" name="address"  width="200" size="48"></td>
+
 
 	</tr>
 
 	<tr>
-		<td width="200">電話番号 : </td>
-		<td><input type="tel" name="tel" class="texter box" size="150"></td>
+		<td width="100" align="right">電話番号 : </td>
+		<td class="texter box" align="left"><input type="tel" name="tel"  width="100" ></td>
+		<td></td>
 
 	</tr>
 
 	<tr>
-		<td width="200"	>カテゴリ : </td >
-		<td width="200"><select name="se1" class="sample2 box" size="150">
+		<td width="100"	align="right" class="category">カテゴリ : </td >
+		<td class="sample2 box" align="left"><select  name="se1" style="width: 153px" class="pull">
 				<option ></option>
 				<option ></option>
 			</select>
@@ -42,9 +55,10 @@
 	</tr>
 
 	<tr>
-		<td width="200"></td>
-		<td width="200"><input type="submit" value="確認" class="btn btn1">
-						 <input type="submit" value="戻る" class="btn btn2"></td>
+		<td width="100"></td>
+		<td width="100"align="left"><input type="submit" value="確認" class="btn btn1">
+						 </td>
+		<td width="100"><input type="submit" value="戻る" class="btn btn2"></td>
 	</tr>
 
 
