@@ -1,12 +1,20 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"
+    import="pkg1.Common"
+    import="java.sql.ResultSet;"
+ %>
 <!DOCTYPE html>
+
+
+
 <%
 	String name="";
 	String address="";
 	String tel="";
 	String categoryid="";
 
+	Common p1 = new Common();
+	ResultSet rs =p1.getCategoryAll();
 
 
 
@@ -46,7 +54,7 @@
 
 	<tr>
 		<td width="100"	align="right" class="category">カテゴリ : </td >
-		<td class="sample2 box" align="left"><select  name="se1" style="width: 153px" class="pull">
+		<td class="sample2 box" align="left"><select  name="cate1" style="width: 153px" class="pull">
 				<option ></option>
 				<option ></option>
 			</select>
