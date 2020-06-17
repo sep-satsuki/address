@@ -12,8 +12,11 @@
 	String address="";
 	String tel="";
 	String categoryid="";
-
+	
+	// Commonクラスの実体化（インスタンス化）
 	Common p1 = new Common();
+	
+	// 全カテゴリ取得
 	ResultSet rs =p1.getCategoryAll();
 
 
@@ -55,7 +58,10 @@
 	<tr>
 		<td width="100"	align="right" class="category">カテゴリ : </td >
 		<td class="sample2 box" align="left"><select  name="cate1" style="width: 153px" class="pull">
-				<option ></option>
+				<option >
+				while 
+				
+				</option>
 				<option ></option>
 			</select>
 		</td>
